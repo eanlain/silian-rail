@@ -7,11 +7,6 @@ module SilianRail
         comments: [['<!--', '-->']]
       )
 
-      require 'silian-rail/post_processor'
-      env.register_postprocessor 'text/html', :web_components do |context, data|
-        SilianRail::PostProcessor.new(context).call(data)
-      end
-
       require 'sprockets/bundle'
       env.register_bundle_processor 'text/html', Sprockets::Bundle
 

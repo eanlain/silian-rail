@@ -23,7 +23,7 @@ module ActionView
           sources.map { |source|
             options = options.merge('integrity' => asset_integrity(source, type: :html)) if integrity
             construct_html_include_tag source, options
-          }.join('\n').html_safe
+          }.join("\n").html_safe
         end
       end
 

@@ -15,5 +15,4 @@ Gem::Specification.new do |s|
   s.test_files  = Dir['spec/**/*']
 
   s.add_dependency 'rails', '>= 4.2'
-  s.add_dependency 'loofah', '~> 2.0'
 end

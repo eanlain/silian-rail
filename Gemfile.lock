@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    silian-rail (0.1.0)
-      loofah (~> 2.0)
+    silian-rail (0.2.0)
       rails (>= 4.2)
 
 GEM
